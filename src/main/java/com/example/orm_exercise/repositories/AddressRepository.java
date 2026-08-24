@@ -1,0 +1,7 @@
+package com.example.orm_exercise.repositories;
+
+import com.example.orm_exercise.models.Address;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AddressRepository extends JpaRepository<Address, Integer> {
+}
